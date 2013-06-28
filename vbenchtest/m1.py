@@ -29,7 +29,7 @@ __author__ = 'Yaroslav Halchenko'
 __copyright__ = 'Copyright (c) 2013 Yaroslav Halchenko'
 __license__ = 'MIT'
 
-from math import sin
+from numpy import sin
 
 def manysins(n=1000):
     """Computes many sinusoids
