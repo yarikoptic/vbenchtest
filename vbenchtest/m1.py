@@ -29,9 +29,9 @@ __author__ = 'Yaroslav Halchenko'
 __copyright__ = 'Copyright (c) 2013 Yaroslav Halchenko'
 __license__ = 'MIT'
 
-from numpy import sin
+from numpy import arange, float, sin
 
 def manysins(n=1000):
     """Computes many sinusoids
     """
-    return [sin(i/10.) for i in xrange(n)]
+    return sin(arange(n, dtype=float)/10.)
