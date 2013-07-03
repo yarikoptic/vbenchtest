@@ -6,8 +6,6 @@
 
 from distutils.core import setup
 
-raise RuntimeError("Testing failures to build")
-
 setup(
 	name = "vbenchtest",
 	version = '0.0.1',
