@@ -33,5 +33,7 @@ from numpy import arange, float, sin
 
 def manysins(n=1000):
     """Computes many sinusoids
+
+    And in branch1 it would compute twice as many
     """
-    return sin(arange(n, dtype=float)/10.)
+    return sin(arange(n*2, dtype=float)/10.)
